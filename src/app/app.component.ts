@@ -1,5 +1,8 @@
 import { Component, Input } from '@angular/core';
+import { Routes } from '@angular/router';
 import { Ingredient } from './shared/ingredients.model';
+
+
 
 @Component({
   selector: 'app-root',
@@ -10,7 +13,7 @@ export class AppComponent {
   title = 'shopping_list-recipe_book';
   loadedFeature = 'recipe';
   
-  onNavigate(feature: any){
-    this.loadedFeature = feature;
-  }
+  // onNavigate(feature: any){
+  //   this.loadedFeature = feature;
+  // }
 }
